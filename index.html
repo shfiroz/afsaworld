@@ -1,9 +1,238 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Welcome to MASKA & CHAI HUB</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maska & Chai Hub | Your Neighbourhood Tea Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <body>
-  <h1>AFSA World presents MASKA & CHAI HUB 🎉</h1>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <i class="fas fa-mug-hot"></i>
+                <span>Maska & Chai Hub</span>
+            </a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Fresh Tea & Warm Maska Buns</h1>
+            <p>Handcrafted street-style chai with delicious flavored maska buns</p>
+            <a href="#menu" class="btn">View Our Menu</a>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2 class="section-title">Our Special Menu</h2>
+            <p class="section-subtitle">Freshly prepared with love every day</p>
+            
+            <div class="menu-category">
+                <h3><i class="fas fa-mug-hot"></i> Our Signature Teas</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Fresh Chai</h4>
+                            <span class="price">₹ 20</span>
+                        </div>
+                        <p>Traditional spiced tea with ginger, cardamom & cinnamon</p>
+                    </div>
+                   <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Fresh Tea in Edible Cup</h4>
+                            <span class="price">₹ 30</span>
+                        </div>
+                        <p>Drink Tea, Eat the Cup</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Elaichi (Cardamom) Tea</h4>
+                            <span class="price">₹ 30</span>
+                        </div>
+                        <p>Aromatic cardamom flavored tea</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="menu-category">
+                <h3><i class="fas fa-bread-slice"></i> Maska Bun Flavors</h3>
+                <div class="flavor-grid">
+                    <div class="flavor-item">
+                        <div class="flavor-icon vanilla">
+                            <i class="fas fa-ice-cream"></i>
+                        </div>
+                        <h4>Vanilla</h4>
+                        <p>Classic sweet vanilla butter</p>
+                        <span class="price">₹ 30</span>
+                    </div>
+                    <div class="flavor-item">
+                        <div class="flavor-icon chocolate">
+                            <i class="fas fa-cookie-bite"></i>
+                        </div>
+                        <h4>Chocolate</h4>
+                        <p>Rich cocoa butter spread</p>
+                        <span class="price">₹ 45</span>
+                    </div>
+                    <div class="flavor-item">
+                        <div class="flavor-icon butterscotch">
+                            <i class="fas fa-candy-cane"></i>
+                        </div>
+                        <h4>Butter Scotch</h4>
+                        <p>Caramelized brown sugar butter</p>
+                        <span class="price">₹ 45</span>
+                    </div>
+                    <div class="flavor-item">
+                        <div class="flavor-icon strawberry">
+                            <i class="fas fa-strawberry"></i>
+                        </div>
+                        <h4>Strawberry</h4>
+                        <p>Fresh strawberry compote butter</p>
+                        <span class="price">₹ 45</span>
+                    </div>
+                    <div class="flavor-item">
+                        <div class="flavor-icon blueberry">
+                            <i class="fas fa-berry"></i>
+                        </div>
+                        <h4>Blueberry</h4>
+                        <p>Tangy blueberry jam butter</p>
+                        <span class="price">₹ 45</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category">
+                <h3><i class="fas fa-utensils"></i> Small Bite Snacks</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Samosa</h4>
+                            <span class="price">₹ 30</span>
+                        </div>
+                        <p>Spiced potato filled pastry</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Vada Pav</h4>
+                            <span class="price">₹ 50</span>
+                        </div>
+                        <p>Spicy potato fritter in bun</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Biscuit Platter</h4>
+                            <span class="price">₹ 30</span>
+                        </div>
+                        <p>Assorted tea biscuits</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4>Pakora</h4>
+                            <span class="price">₹ 40</span>
+                        </div>
+                        <p>Mixed vegetable fritters</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">Our Story</h2>
+                <p>We started as a small street cart with one simple mission: serve the freshest tea and warmest maska buns to our community. Every cup is brewed fresh to order, and our buns are baked daily.</p>
+                <p>What makes us special? We use best tea, fresh milk, and butter for our maska buns. Each flavor is crafted with care and best ingredients.</p>
+                <div class="features">
+                    <div class="feature">
+                        <i class="fas fa-leaf"></i>
+                        <h4>Fresh Ingredients</h4>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-clock"></i>
+                        <h4>Made Fresh Daily</h4>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-heart"></i>
+                        <h4>Made with Love</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Visit Us Today</h2>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3><i class="fas fa-map-marker-alt"></i> Location</h3>
+                    <p>Manacaud<br>Thiruvananthapuram, Kerala</p>
+                    
+                    <h3><i class="fas fa-clock"></i> Opening Hours</h3>
+                    <p>Monday - Sunday: 3:00 PM - 10:00 PM</p>
+                                        
+                    <h3><i class="fas fa-phone"></i> Call Us</h3>
+                    <p>(+91) 73064 20314</p>
+                    
+                    <h3><i class="fas fa-envelope"></i> Email</h3>
+                    <p>maskachaihub@gmail.com</p>
+                </div>
+                
+                <div class="map-placeholder">
+                    <div class="map">
+                        <!-- Replace with your actual map embed code -->
+                        <div class="map-content">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <p>Maska & Chai Hub Location</p>
+                            <small><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d342.98750693509186!2d76.9480204721712!3d8.471815913214646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sqa!4v1766082877398!5m2!1sen!2sqa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-mug-hot"></i>
+                    <span>Maska & Chai Hub</span>
+                </div>
+                <p>Fresh tea, warm buns, and happy moments since 2024</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+                <p class="copyright">© 2024 Street Chai Corner. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
